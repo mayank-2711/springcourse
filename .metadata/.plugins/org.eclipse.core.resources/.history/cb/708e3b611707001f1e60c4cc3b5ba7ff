@@ -1,0 +1,11 @@
+package com.mayank.springmvcboot;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	public void home() {
+		System.out.println("Home page Requested");
+	}
+
+}
