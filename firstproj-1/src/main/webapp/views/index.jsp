@@ -9,7 +9,7 @@
 <body>
 	Welcome to Mayank
 	
-	<form action="addAlien">
+	<form action="addAlien" method="post">
 		Enter your ID : <input type="text" name="aid"><br>
 		Enter your Name : <input type="text" name="aname"><br>
 		<input type="submit">
